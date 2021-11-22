@@ -7,7 +7,67 @@
     box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
+/* General stylings */
+.hr {
+    border-left: 1px solid rgb(236, 234, 234);
+    height: 30px;
+    width: 1px;
+}
+
+.text-light {
+    color: #fff;
+}
+.flex-row {
     display: flex;
 }
+.ps {
+    padding-left: 1em;
+}
+
+/* ##### */
+
+/* Navbar */
+.nav-left,
+.nav-right {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.nav-left a,
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1.5em;
+}
+.nav-left a:hover,
+.nav-right a:hover {
+    border-bottom: 3px solid rgb(36, 99, 218);
+}
+.nav-left {
+    flex: 1;
+}
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* ##### */
+.banner-content {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 
+.banner-img {
+    position: relative;
+}
+
+.banner-img img {
+    width: 200px;
+
+    position: absolute;
+    bottom: 0;
+} */
