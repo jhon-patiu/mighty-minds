@@ -1,7 +1,3 @@
 # Mighty Minds React Project
 
- Sorry for the delayed upload. Had some issues setting up GitLab
- 
- I've only managed to setup navbar within the first hour, took me a while to figure out how to use Custom styles in Material UI
-
- Will definitely finish the project within 24-48 hours
+Could not finish the project on time. I've only manage to create the Responsive navbar and Header. Struggled with Material UI, lots of changes on their latest update just weeks ago. Had to read lots of docs and also their Grid and Flexbox system is a bit weird, took me a lot of time adjusting the responsiveness.
