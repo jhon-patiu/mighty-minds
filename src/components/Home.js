@@ -6,8 +6,7 @@ import { Container } from "@mui/material";
 const Home = () => {
     return (
         <div>
-            <Layout />
-
+            {/* <Layout /> */}
             <Banner />
         </div>
     );

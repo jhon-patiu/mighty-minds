@@ -54,12 +54,6 @@
 }
 
 /* ##### */
-.banner-content {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 /* 
 .banner-img {
     position: relative;
@@ -71,3 +65,9 @@
     position: absolute;
     bottom: 0;
 } */
+
+@media (max-width: 1250px) {
+    .split-btn {
+        margin-top: 3em;
+    }
+}
