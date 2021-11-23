@@ -1,4 +1,4 @@
-import { Button, Menu, MenuItem } from "@mui/material";
+import { Button, Menu, MenuItem, Grid } from "@mui/material";
 import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import AddIcon from "@mui/icons-material/Add";
@@ -37,6 +37,7 @@ const Buttons = () => {
                         <>
                             <Button
                                 variant="contained"
+                                color="info"
                                 size="medium"
                                 sx={{
                                     margin: "0 .25em",
@@ -46,6 +47,7 @@ const Buttons = () => {
                                 Assign Activity
                             </Button>
                             <Button
+                                color="info"
                                 variant="contained"
                                 size="medium"
                                 sx={{ borderRadius: " 0 5px 5px 0" }}
