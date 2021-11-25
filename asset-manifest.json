@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/might-minds/static/css/main.5d01fc32.chunk.css",
-    "main.js": "/might-minds/static/js/main.6cdf9c2f.chunk.js",
-    "main.js.map": "/might-minds/static/js/main.6cdf9c2f.chunk.js.map",
-    "runtime-main.js": "/might-minds/static/js/runtime-main.f381d989.js",
-    "runtime-main.js.map": "/might-minds/static/js/runtime-main.f381d989.js.map",
-    "static/js/2.e4c97405.chunk.js": "/might-minds/static/js/2.e4c97405.chunk.js",
-    "static/js/2.e4c97405.chunk.js.map": "/might-minds/static/js/2.e4c97405.chunk.js.map",
-    "static/js/3.756a8880.chunk.js": "/might-minds/static/js/3.756a8880.chunk.js",
-    "static/js/3.756a8880.chunk.js.map": "/might-minds/static/js/3.756a8880.chunk.js.map",
-    "index.html": "/might-minds/index.html",
-    "static/css/main.5d01fc32.chunk.css.map": "/might-minds/static/css/main.5d01fc32.chunk.css.map",
-    "static/js/2.e4c97405.chunk.js.LICENSE.txt": "/might-minds/static/js/2.e4c97405.chunk.js.LICENSE.txt"
+    "main.css": "/mighty-minds/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/mighty-minds/static/js/main.48c1c5a0.chunk.js",
+    "main.js.map": "/mighty-minds/static/js/main.48c1c5a0.chunk.js.map",
+    "runtime-main.js": "/mighty-minds/static/js/runtime-main.83eceec5.js",
+    "runtime-main.js.map": "/mighty-minds/static/js/runtime-main.83eceec5.js.map",
+    "static/js/2.2c8e3409.chunk.js": "/mighty-minds/static/js/2.2c8e3409.chunk.js",
+    "static/js/2.2c8e3409.chunk.js.map": "/mighty-minds/static/js/2.2c8e3409.chunk.js.map",
+    "static/js/3.3c479949.chunk.js": "/mighty-minds/static/js/3.3c479949.chunk.js",
+    "static/js/3.3c479949.chunk.js.map": "/mighty-minds/static/js/3.3c479949.chunk.js.map",
+    "index.html": "/mighty-minds/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/mighty-minds/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.2c8e3409.chunk.js.LICENSE.txt": "/mighty-minds/static/js/2.2c8e3409.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mighty-minds/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f381d989.js",
-    "static/js/2.e4c97405.chunk.js",
-    "static/css/main.5d01fc32.chunk.css",
-    "static/js/main.6cdf9c2f.chunk.js"
+    "static/js/runtime-main.83eceec5.js",
+    "static/js/2.2c8e3409.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.48c1c5a0.chunk.js"
   ]
 }
