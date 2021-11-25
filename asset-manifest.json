@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/might-minds/static/css/main.5d01fc32.chunk.css",
+    "main.js": "/might-minds/static/js/main.6cdf9c2f.chunk.js",
+    "main.js.map": "/might-minds/static/js/main.6cdf9c2f.chunk.js.map",
+    "runtime-main.js": "/might-minds/static/js/runtime-main.f381d989.js",
+    "runtime-main.js.map": "/might-minds/static/js/runtime-main.f381d989.js.map",
+    "static/js/2.e4c97405.chunk.js": "/might-minds/static/js/2.e4c97405.chunk.js",
+    "static/js/2.e4c97405.chunk.js.map": "/might-minds/static/js/2.e4c97405.chunk.js.map",
+    "static/js/3.756a8880.chunk.js": "/might-minds/static/js/3.756a8880.chunk.js",
+    "static/js/3.756a8880.chunk.js.map": "/might-minds/static/js/3.756a8880.chunk.js.map",
+    "index.html": "/might-minds/index.html",
+    "static/css/main.5d01fc32.chunk.css.map": "/might-minds/static/css/main.5d01fc32.chunk.css.map",
+    "static/js/2.e4c97405.chunk.js.LICENSE.txt": "/might-minds/static/js/2.e4c97405.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f381d989.js",
+    "static/js/2.e4c97405.chunk.js",
+    "static/css/main.5d01fc32.chunk.css",
+    "static/js/main.6cdf9c2f.chunk.js"
+  ]
+}
