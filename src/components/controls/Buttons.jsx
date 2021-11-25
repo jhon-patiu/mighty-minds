@@ -1,74 +1,115 @@
-import { Button, Menu, MenuItem, Grid } from "@mui/material";
+import { Button, Divider, Menu, MenuItem } from "@mui/material";
+import { makeStyles } from "@mui/styles";
 import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import AddIcon from "@mui/icons-material/Add";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
+const useStyles = makeStyles((theme) => ({
+    breakpoints: {
+        values: {
+            xs: 0,
+            sm: 600,
+            md: 900,
+            lg: 1200,
+            xl: 1365,
+            xxl: 1536,
+        },
+    },
+    btnGroup: {
+        height: "100%",
+        display: "flex",
+        alignItems: "center",
+        [theme.breakpoints.down("xl")]: {
+            flexDirection: "column",
+            justifyContent: "center",
+        },
+        [theme.breakpoints.down("lg")]: {
+            flexDirection: "row",
+        },
+        [theme.breakpoints.down("md")]: {
+            flexDirection: "column",
+            justifyContent: "center",
+        },
+    },
+    btn: {
+        height: "2.5em",
+        minWidth: "200px",
+        [theme.breakpoints.down("xl")]: {
+            margin: ".25em 0",
+        },
+        [theme.breakpoints.down("md")]: {
+            minWidth: "290px",
+        },
+    },
+    splitBtn: {
+        display: "flex",
+        [theme.breakpoints.down("md")]: {
+            minWidth: "330px",
+        },
+    },
+}));
 
 const Buttons = () => {
+    const styles = useStyles();
     return (
-        <div>
-            <span>
-                <Button
-                    variant="outlined"
-                    size="medium"
-                    sx={{
-                        color: "white",
-                        border: "1px solid white",
-                        margin: "0 .5em",
-                    }}>
+        <div className={styles.btnGroup}>
+            <span className={styles.btn}>
+                <Button variant="outlined" color="secondary" fullWidth>
                     My Calendar
                 </Button>
             </span>
-            <span>
-                <Button
-                    variant="outlined"
-                    size="medium"
-                    sx={{
-                        color: "white",
-                        border: "1px solid white",
-                        margin: "0 .5em",
-                    }}>
+
+            <span className={styles.btn}>
+                <Button variant="outlined" color="secondary" fullWidth>
                     Weekly Report
                 </Button>
             </span>
-
-            <span className="split-btn">
-                <PopupState variant="popover" popupId="demo-popup-menu">
-                    {(popupState) => (
-                        <>
-                            <Button
-                                variant="contained"
-                                color="info"
-                                size="medium"
-                                sx={{
-                                    margin: "0 .25em",
-                                    borderRadius: "5px 0 0 5px",
-                                }}>
-                                <AddIcon />
-                                Assign Activity
-                            </Button>
-                            <Button
-                                color="info"
-                                variant="contained"
-                                size="medium"
-                                sx={{ borderRadius: " 0 5px 5px 0" }}
-                                {...bindTrigger(popupState)}>
-                                <ExpandMoreIcon />
-                            </Button>
-                            <Menu {...bindMenu(popupState)}>
-                                <MenuItem onClick={popupState.close}>
-                                    Sample Activity #1
-                                </MenuItem>
-                                <MenuItem onClick={popupState.close}>
-                                    Sample Activity #2
-                                </MenuItem>
-                                <MenuItem onClick={popupState.close}>
-                                    Sample Activity #3
-                                </MenuItem>
-                            </Menu>
-                        </>
-                    )}
-                </PopupState>
-            </span>
+            <div className={styles.splitBtn}>
+                <span className={styles.btn}>
+                    <PopupState variant="popover" popupId="demo-popup-menu">
+                        {(popupState) => (
+                            <>
+                                <Button
+                                    variant="contained"
+                                    size="medium"
+                                    color="warning"
+                                    sx={{
+                                        padding: ".5em 2em",
+                                        margin: "0 .25em 0 1.5em",
+                                        borderRadius: "5px 0 0 5px",
+                                        background: "#3972f5",
+                                    }}>
+                                    <AddIcon />
+                                    Assign Activity
+                                </Button>
+                                <Button
+                                    color="warning"
+                                    variant="contained"
+                                    size="medium"
+                                    sx={{
+                                        padding: ".5em 2em",
+                                        borderRadius: " 0 5px 5px 0",
+                                        background: "#3972f5",
+                                    }}
+                                    {...bindTrigger(popupState)}>
+                                    <ExpandMoreIcon />
+                                </Button>
+                                <Menu {...bindMenu(popupState)}>
+                                    <MenuItem onClick={popupState.close}>
+                                        Sample Activity #1
+                                    </MenuItem>
+                                    <MenuItem onClick={popupState.close}>
+                                        Sample Activity #2
+                                    </MenuItem>
+                                    <MenuItem onClick={popupState.close}>
+                                        Sample Activity #3
+                                    </MenuItem>
+                                </Menu>
+                            </>
+                        )}
+                    </PopupState>
+                </span>
+            </div>
         </div>
     );
 };

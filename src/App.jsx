@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./styles/App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import Home from "./components/Home";
@@ -8,6 +8,7 @@ const theme = createTheme({
     palette: {
         primary: {
             main: "rgba(15,37,81,255)",
+            light: "#3972f5",
         },
         secondary: {
             main: "#fff",

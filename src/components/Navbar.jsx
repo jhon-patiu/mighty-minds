@@ -50,6 +50,9 @@ const useStyles = makeStyles((theme) => ({
     brand: {
         display: "flex",
         alignItems: "center",
+        "& img": {
+            marginRight: ".25em",
+        },
     },
     list: {
         width: 180,
@@ -88,6 +91,7 @@ const Header = () => {
                 {/* RIGHT NAV */}
                 <Box sx={{ display: "flex", flex: 1 }}>
                     <Typography className={styles.brand} variant="h6" px={3}>
+                        <img src="/images/owl.png" alt="owl logo" width={30} />
                         MIGHTY MINDS
                     </Typography>
                     <Divider orientation="vertical" variant="middle" light />
